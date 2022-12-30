@@ -117,7 +117,6 @@ public class Principal extends javax.swing.JFrame {
       contenedorModulos.getDesktopManager().maximizeFrame(ventas);
       ventas.setVisible(true);
       }
-             
     }//GEN-LAST:event_btnVentasActionPerformed
 
     

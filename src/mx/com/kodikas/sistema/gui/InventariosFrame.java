@@ -230,7 +230,7 @@ public class InventariosFrame extends javax.swing.JInternalFrame {
 
     private void BtnNuevoArticuloActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnNuevoArticuloActionPerformed
         // TODO add your handling code here:
-    ArticuloFrame articulo =new ArticuloFrame(null, true);
+    ProductoFrame articulo =new ProductoFrame(null, true);
     articulo.setVisible(true);
     articulo.setDefaultCloseOperation(JDialog.DISPOSE_ON_CLOSE);
     articulo.setLocation(600, 150);

@@ -34,6 +34,10 @@ public class CategoriaProd {
     public void setNomCategoriaProd(String nomCategoriaProd) {
         this.nomCategoriaProd = nomCategoriaProd;
     }
+    @Override
+    public String toString (){
+        return this.nomCategoriaProd;
+    }
 
     public String getDescCategoriaProd() {
         return descCategoriaProd;
